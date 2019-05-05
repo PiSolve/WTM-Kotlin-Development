@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">WTM</string>
     <string name="action_settings">Settings</string>
+    <string name="toast_me">Toast Me</string>
+    <string name="count_me">Count Me</string>
+    <string name="date">Date</string>
 </resources>
