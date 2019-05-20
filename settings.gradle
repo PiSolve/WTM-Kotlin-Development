@@ -1,1 +1,1 @@
-include ':app', ':02_recyclerview', ':03_network'
+include ':app', ':02_recyclerview', ':03_network', ':04_imagedownload'
