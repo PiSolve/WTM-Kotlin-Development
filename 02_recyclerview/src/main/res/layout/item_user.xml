@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/label_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="User" />
+
+    <TextView
+        android:id="@+id/label_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : "
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_user"
+        tools:text="Name : " />
+
+    <TextView
+        android:id="@+id/placeholder_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintStart_toEndOf="@+id/label_name"
+        app:layout_constraintTop_toTopOf="@+id/label_name"
+        tools:text="Steve" />
+
+    <TextView
+        android:id="@+id/label_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age : "
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_name"
+        tools:text="Age : " />
+
+    <TextView
+        android:id="@+id/placeholder_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        app:layout_constraintStart_toEndOf="@+id/label_age"
+        app:layout_constraintTop_toTopOf="@+id/label_age"
+        tools:text="35" />
+
+</android.support.constraint.ConstraintLayout>

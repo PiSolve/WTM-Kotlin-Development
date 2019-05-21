@@ -8,10 +8,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/02_recyclerview" />
+            <option value="$PROJECT_DIR$/03_network" />
+            <option value="$PROJECT_DIR$/04_imagedownload" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>
